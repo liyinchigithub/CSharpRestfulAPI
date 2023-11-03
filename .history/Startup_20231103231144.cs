@@ -32,7 +32,16 @@ namespace CSharpRestfulAPI
             // services.Configure<CacheOptions>(configuration.GetSection("Cache")); // 注册CacheOptions服务，并绑定appsettings.json中的Cache配置节
             // services.Configure<FileUploadOptions>(configuration.GetSection("FileUpload")); // 注册FileUploadOptions服务，并绑定appsettings.json中的FileUpload配置节
             // services.Configure<EmailOptions>(configuration.GetSection("Email")); // 注册EmailOptions服务，并绑定appsettings.json中的Email配置节
-
+            // 允许跨域
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AllowAll", builder =>
+                {
+                    builder.AllowAnyOrigin()
+                           .AllowAnyMethod()
+                           .AllowAnyHeader();
+                });
+            });
             // 其他服务的注册和配置...
              services.AddControllers();
         }

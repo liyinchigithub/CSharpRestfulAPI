@@ -1,7 +1,6 @@
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.AspNetCore.Routing;
 
 // 创建一个WebApplication构建器对象
 var builder = WebApplication.CreateBuilder(args);
@@ -41,7 +40,7 @@ app.UseCors(builder =>
 app.UseAuthorization();
 
 // 将“控制器路由”添加到应用程序的请求处理管道中
-app.MapControllers();// 我们使用 app.MapControllers() 方法将 ExcelController 添加到路由配置中。这将使得 ExcelController 中的路由路径能够被正确地映射和处理
+app.MapControllers();
 
 // 运行应用程序，开始监听和处理HTTP请求
 app.Run();
