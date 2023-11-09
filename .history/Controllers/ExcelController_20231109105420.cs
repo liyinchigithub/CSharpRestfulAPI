@@ -5,7 +5,6 @@ namespace CSharpRestfulAPI.Controllers
 
     /**
     * 发送GET请求到http://localhost:5029/api/excel来访问该接口
-    * 区别于WeatherForecastController
     */
     [Route("api/excel")]
     [ApiController]

@@ -4,11 +4,11 @@ namespace CSharpRestfulAPI; // 声明了命名空间CSharpRestfulAPI。
 * @author liyinchi
 * @description 定义了一个名为WeatherForecast的公共类
 * 
-*/
+*/ 
 public class WeatherForecast
 {
-    // 日期
-    public DateOnly Date { get; set; }
+     // 日期
+    public DateOnly Date { get; set; } 
 
     // 摄氏温度
     public int TemperatureC { get; set; }
