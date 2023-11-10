@@ -7,9 +7,14 @@
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/CSharpRestfulAPI.pdb
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/EPPlus.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.AspNetCore.OpenApi.dll
+/Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.dll
+/Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Abstractions.dll
+/Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.EntityFrameworkCore.Relational.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.IO.RecyclableMemoryStream.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.OpenApi.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Microsoft.Win32.SystemEvents.dll
+/Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/MySqlConnector.dll
+/Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Pomelo.EntityFrameworkCore.MySql.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.Swagger.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerGen.dll
 /Users/liyinchi/workspace/C#/CSharpRestfulAPI/bin/Debug/net7.0/Swashbuckle.AspNetCore.SwaggerUI.dll

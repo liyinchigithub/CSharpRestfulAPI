@@ -12,6 +12,7 @@
     <PackageReference Include="Pomelo.EntityFrameworkCore.MySql" Version="7.0.0" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="6.5.0" />
     <PackageReference Include="EPPlus" Version="5.7.0" />
+    <ProjectReference Include="./MyDbContext.csproj" /> <!-- 替换为正确的项目引用路径 -->
   </ItemGroup>
 
 </Project>
