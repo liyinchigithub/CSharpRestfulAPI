@@ -9,7 +9,7 @@ var builder = WebApplication.CreateBuilder(args);
 
 
 
-// 将"控制器服务"添加到应用程序的服务容器中，每个路由控制器都要添加到这里！！！
+// 将"控制器服务"添加到应用程序的服务容器中，每个路由控制器都要添加到这里
 builder.Services.AddControllers();
 // 将"API浏览器服务"添加到应用程序的服务容器中
 builder.Services.AddEndpointsApiExplorer();
