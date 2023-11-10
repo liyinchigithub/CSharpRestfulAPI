@@ -31,6 +31,12 @@ namespace CSharpRestfulAPI.Controllers
             return Ok(new { code = 0, msg = "success", data = "" });
         }
 
-        
+        [HttpPost("register")]
+        public IActionResult Register()
+        {
+            // 处理注册逻辑
+            // ...
+            return Ok(new { code = 0, msg = "success", data = new { userId = 1, userName = "liyinchi", datetime = "2023-11-09 12:00:00" } });
+        }
     }
 }

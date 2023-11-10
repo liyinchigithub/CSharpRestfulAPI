@@ -37,7 +37,7 @@ public class UserController : ControllerBase
         // 返回
         return Ok(new { code = 0, msg = "success", data = new {userName = user.Name ,datetime = "2023-11-09 12:00:00" } });
        }
-       catch (Exception ex)
+       catch (System.Exception)
        {
         return BadRequest("Failed to register user: " + ex.Message);
        }

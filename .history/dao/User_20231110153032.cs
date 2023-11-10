@@ -8,5 +8,5 @@ public class User
     public string? Name { get; set; }
     public string? Email { get; set; }
     public bool? isEnalbe { get; set; }
-    public DateTime? created { get; set; }
+    public string? created { get; set; }
 }
